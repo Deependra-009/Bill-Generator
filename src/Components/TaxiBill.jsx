@@ -79,6 +79,8 @@ const TaxiBill = () => {
             {/* <!-------------------- page 2 -------------------------> */}
             <div id="page2">
                 <form id="form1">
+                    
+                    <div className='name'>
                     <label>Passenger Name:- </label>
                     <select id="txt2">
                         <option>Mr</option>
@@ -88,6 +90,8 @@ const TaxiBill = () => {
                         <option>Sri</option>
                     </select>
                     <input type="text" id="txt" class="inputdata" />
+                    </div>
+
                     <br />
                     <label>Passenger Phone Number:</label>
                     <input type="number" id="txt" class="inputdata" />
@@ -103,24 +107,24 @@ const TaxiBill = () => {
                     <input type="text" id="txt" size="15" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <label>To</label>
                     <input type="text" id="txt" size="15" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <label>Date:- </label>
-                    <input type="date" id="txt" />
+                    <label>Return</label>
+                    <input type="text" id="txt" size="15" />
                 </form>
             </div>
 
             {/* <!-- ------------------- page 4 ---------------------- --> */}
             <div id="page2">
                 <form id="form1">
-                    <label>Opening Time </label>
-                    <input type="text" id="txt" size="15" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <label>Opening Date</label>
-                    <input type="date" id="txt" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label>Opening Time/Date </label>
+                    <input type="text" id="txt" size="19" />&nbsp;&nbsp;
+                    <label>Closing Time/Date</label>
+                    <input type="text" id="txt" size="19" />&nbsp;
                 </form>
                 <form id="form1">
-                    <label>Closing Time&nbsp;&nbsp;</label>
-                    <input type="text" id="txt" size="15" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <label>Closing Date</label>
-                    <input type="date" id="txt" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label>Opening KM &nbsp;</label>
+                    <input type="text" id="txt" size="25" />&nbsp;&nbsp;
+                    <label>Closing KM</label>
+                    <input type="text" id="txt" size="25" />&nbsp;
                 </form>
             </div>
 

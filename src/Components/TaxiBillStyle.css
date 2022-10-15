@@ -27,25 +27,26 @@ body
 }
 h2{
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     color:green;
     font-family: Arial, Helvetica, sans-serif;
 }
 h4{
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     color: blue;
 }
 #img1,#img2
 {
     border-radius: 50%;
+    padding: -40px;
 }
 /********************** page 2 ******************************/
 #page2
 {
     margin-top: 10px;
     border-bottom: 3px solid green;
-    padding: 10px;
+    padding: 7px;
 }
 label
 {
@@ -59,9 +60,13 @@ select
 {
     font-size: 20px;
 }
+.name{
+    display: flex;
+    margin-bottom: -15px;
+}
 #form1
 {
-   padding: 5px;
+   padding-bottom: 5px;
 
 }
 label{
@@ -70,6 +75,7 @@ label{
 #txt2
 {
     font-size: 24px;
+    margin-bottom: 1px;
 }
 .inputdata{
     width: 50%;
