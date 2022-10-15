@@ -8,35 +8,37 @@ import {
   Route
 } from "react-router-dom";
 
-function check() {
-  if (sessionStorage.getItem("bill-generator") == null) {
-    console.log("token not find");
-    return false;
-  }
-  console.log("tokeb found");
-  return true;
-}
+// function check() {
+//   if (sessionStorage.getItem("bill-generator") == null) {
+//     console.log("token not find");
+//     return false;
+//   }
+//   console.log("tokeb found");
+//   return true;
+// }
 
 function App() {
   return (
     <>
-    <BrowserRouter>
-    <ToastContainer />
 
-    
-    <Routes>
-        <Route path="/" element={
-          <TaxiBill/>
-        } exact/>
-        {/* <Route path="/taxi-bill" element={
+      <TaxiBill />
+      {/* <BrowserRouter>
+        <ToastContainer /> */}
+
+
+        {/* <Routes> */}
+          {/* <Route path="/" element={
+            <TaxiBill />
+          } exact /> */}
+          {/* <Route path="/taxi-bill" element={
           <Protected isLoggedIn={check()}>
           <TaxiBill/>
         </Protected>
         } exact/>*/}
-     </Routes> 
-    </BrowserRouter>
-      
-    
+        {/* </Routes> */}
+      {/* </BrowserRouter> */}
+
+
     </>
   );
 }
