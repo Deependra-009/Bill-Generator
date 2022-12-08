@@ -1,0 +1,54 @@
+.page1{
+    width: 100%;
+    /* min-height:00px; */
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+.page1-text{
+    padding-top: 1.6em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 200px;
+}
+
+.train-img,.flight-img{
+
+    width: 190px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+}
+.train-img{
+    right: 0;
+}
+.flight-img{
+    left: 0;
+}
+
+/******************* page 1 *******************************/
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    color:green;
+    /* font-family: consolas; */
+    
+}
+h2 span{
+    color: green;
+}
+h3{
+    color: red;
+}
+h4{
+    font-size: 18px;
+    text-align: center;
+    color: blue;
+}
+#img1,#img2
+{
+    border-radius: 50%;
+}

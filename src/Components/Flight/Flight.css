@@ -1,0 +1,84 @@
+/********************** page 2 ******************************/
+#page2
+{
+    width: 100%;
+    border-bottom: 3px solid green;
+}
+label
+{
+    font-size: 25px;
+}
+select
+{
+    font-size: 15px;
+}
+option{
+    font-size: 20px;
+}
+.input-text
+{   
+    font-size: 100%;
+    font-size: 20px;
+    padding-top: 4px;
+}
+#form1
+{
+    margin-left: 10px;
+}
+#txt2
+{
+    font-size: 24px;
+}
+/******************** page 3 **********************************/
+#table1,td,thead
+{
+    font-size: 28px;
+    border: 3px solid green;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    
+}
+#sel1,#sel2,#sel3,#sel4,#sel5
+{
+    font-size: 25px;
+    width: 150px;
+}
+#gpay{
+    font-size: 30px;
+    color: blue;
+}
+#inp
+{
+    font-size: 18px;
+    height: 35px;
+    font-weight: 600;
+}
+#sel
+{
+    font-size: 25px;
+    width: 500px;
+}
+#inp1
+{
+    width: 500px;
+    font-size: 18px;
+    height: 35px;
+}
+#lab
+{
+    font-size: 40px;
+    margin-top: 70px;
+}
+#txt3
+{
+    height: 40px;
+    width: 730px;
+    font-size: 30px;
+}
+#page3
+{
+    border-bottom: 3px solid green;
+}
